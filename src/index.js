@@ -5,6 +5,9 @@ import './index.css'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
 
+document.body.style.margin = 0
+document.body.style.padding = 0
+
 // Get the shadow root
 const shadowRoot = document.getElementById('root').shadowRoot
 
